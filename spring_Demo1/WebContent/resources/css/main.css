@@ -1,0 +1,68 @@
+@charset "BIG5";
+
+table.addtable{
+	width: 360px;
+	height: 80px;
+	podding: 10px;
+	border: 1px solid blue;
+}
+
+td{
+	font-family: "Times New Roman", Times, serif;
+	vertical-align:top;
+}
+a {
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	margin-left: 20px;
+}
+
+.formtable {
+	width: 360px;
+	podding: 10px;
+	border: 1px solid blue;
+}
+
+input[type=text] {
+	width: 250px;
+	margin-left: 10px;
+}
+
+textarea {
+	width: 250px;
+	height: 200px;
+	margin-left: 10px;
+}
+
+.label {
+	font-family: "Times New Roman", Times, serif;
+	width: 75px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+input.control1 {
+	font-family: "Times New Roman", Times, serif;
+	width: 90px;
+	margin-left: 10px;
+}
+
+input.control2 {
+	width: 70px;
+	margin-left: 10px;
+}
+
+.error {
+	color: red;
+	maegin-left: 10px;
+	font-size: small;
+}
+
+table.offers {
+	podding: 20px;
+	border: 1px solid gray;
+}
