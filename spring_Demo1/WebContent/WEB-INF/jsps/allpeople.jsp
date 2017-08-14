@@ -17,7 +17,6 @@
 	<table class="table">
 
 		<tr>
-			<td>ID</td>
 			<td>Name</td>
 			<td>Email</td>
 			<td>Salary</td>
@@ -27,7 +26,6 @@
 
 		<c:forEach var="person" items="${people}">
 			<tr>
-				<td><c:out value="${person.id}"></c:out></td>
 				<td><c:out value="${person.name}"></c:out></td>
 				<td><c:out value="${person.email}"></c:out></td>
 				<td><c:out value="${person.salary}"></c:out></td>
